@@ -22,7 +22,7 @@ See also:
 
 - Superstructure Control
 
-    The elevator, intake, three indexer rollers are controlled using a [request queue](/src/main/java/com/team1678/lib/requests/). Desired actions are added to the queue by calling the appropiate [state or transition method](/src/main/java/com/team1678/frc2024/subsystems/Superstructure.java#L367), which adds a chain of requests to be sequentially run.
+    The elevator, intake, three indexer rollers are controlled using a [request queue](/src/main/java/com/team1678/lib/requests/). Desired actions are added to the queue by calling the appropriate [state or transition method](/src/main/java/com/team1678/frc2024/subsystems/Superstructure.java#L367), which adds a chain of requests to be sequentially run.
 
 ## Notable Package Functions
 - [`com.team1678.frc2024.auto`](/src/main/java/com/team1678/frc2024/auto/)
